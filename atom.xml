@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhuyee.github.io/"/>
-  <updated>2020-05-24T15:13:26.522Z</updated>
+  <updated>2020-05-24T15:18:45.331Z</updated>
   <id>https://zhuyee.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://zhuyee.github.io/posts/undefined/"/>
     <id>https://zhuyee.github.io/posts/undefined/</id>
     <published>2020-05-24T14:39:03.000Z</published>
-    <updated>2020-05-24T15:13:26.522Z</updated>
+    <updated>2020-05-24T15:18:45.331Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>前言</p><p>对于长期写博客的博主来说，在写博客的时候，肯定尽量会做到图文并茂，但对于图片的存储是相当重要的。为了安全稳定，选择了<code>GitHub</code>来作为图床，配合<code>PicGo</code>这个工具，用起来还是挺顺滑的。</p></blockquote><a id="more"></a><h2 id="GitHub的准备工作"><a href="#GitHub的准备工作" class="headerlink" title="GitHub的准备工作"></a>GitHub的准备工作</h2><ul><li>创建一个仓库用于存储图片（这里不再赘述怎么建库）</li></ul><p><code>注意：</code> 仓库命名最好规范些，不要出现空格和特殊符号。</p><h3 id="生成一个token"><a href="#生成一个token" class="headerlink" title="生成一个token"></a>生成一个<code>token</code></h3><ul><li><p>访问：<a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a></p></li><li><p>然后点击<code>Generate new token</code></p></li><li><p>把<code>repo</code>的勾打上即可。</p></li><li><p>然后翻到页面最底部，点击<code>Generate token</code>的绿色按钮生成<code>token</code></p></li><li><p>复制生成的<code>token</code></p></li></ul><h2 id="PicGo的配置"><a href="#PicGo的配置" class="headerlink" title="PicGo的配置"></a>PicGo的配置</h2><h3 id="下载PicGo"><a href="#下载PicGo" class="headerlink" title="下载PicGo"></a>下载PicGo</h3><ul><li>PicGo下载地址： <a href="https://github.com/Molunerfinn/PicGo/releases">https://github.com/Molunerfinn/PicGo/releases</a></li></ul><p>Windows系统下载exe文件，其他版本对应下载即可。</p><h3 id="配置PicGo"><a href="#配置PicGo" class="headerlink" title="配置PicGo"></a>配置PicGo</h3><p>选择Github图库，接着就进行配置：</p><ul><li><p><code>GitHub用户名/仓库命</code></p></li><li><p>第二个分支默认<code>master</code></p></li><li><p>将之前复制的<code>token</code>粘贴到这里即可</p></li></ul><blockquote><p>一定要选择作为默认图库，不然后面上传图片会报错！</p></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
